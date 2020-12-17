@@ -48,6 +48,7 @@ function draw() {
   background(225);
  // circle(ball.position.x , ball.position.y ,40 )
  rectMode(CENTER)
+ 
   dustbin1.display() ;
   dustbin2.display() ;
   dustbin3.display() ;
@@ -57,7 +58,7 @@ function draw() {
 }
 
 function keyPressed(){
-	if(KeyCode === UP_ARROW){
+	if(keyCode === UP_ARROW){
 		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x: 85, y: -85 });
 		
 	}
