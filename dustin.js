@@ -22,7 +22,7 @@ class Dustbin{
         translate(p.x, p.y)
         angleMode(RADIANS)
         rotate(angle)
-        rectMode(CENTER)
+        imageMode(CENTER)
         fill(255)
         rect(0,0 , this.width,this.height);
         pop()
