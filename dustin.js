@@ -24,7 +24,7 @@ class Dustbin{
         rotate(angle)
         imageMode(CENTER)
         fill(255)
-        rect(0,0 , this.width,this.height);
+        image(this.image,0,0 , this.width,this.height);
         pop()
     }
    }
